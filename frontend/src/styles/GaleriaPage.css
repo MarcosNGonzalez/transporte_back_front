@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: flex-start; 
+}
+h2{
+    color: darkslategrey;
+    font-weight: 500;
+    font-style: italic;
+    
+    padding-right: 10px;
+}
+
+
+.galeria img{
+    width: 20%;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-right: 2%;
+}

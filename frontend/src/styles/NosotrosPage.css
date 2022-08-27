@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+
+.historia p{
+    font-size: 16px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 50%;
+    box-shadow: 0 0 5px gainsboro;
+ 
+
+}
+
+.persona h5,
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+.persona h5{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.persona p{
+    color: #666;
+    font-size: 15px;
+}

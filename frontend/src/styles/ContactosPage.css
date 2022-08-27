@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+.contactos{
+    display: flex;
+       gap: 30px;
+   }
+   
+   .contactos div{
+   
+       width: 100%;
+   }
+   
+   .datos p{
+       font-size: 18px;
+   
+   }
+   
+   
+   .datos ul li{
+   
+       font-size: 16px;
+   }
+   
+   .formulario p{
+       display: flex;
+   }
+   
+   .formulario p label{
+       min-width: 80px;
+       display: flex;
+       align-items: center;
+   
+   }
+   
+   .formulario p:nth-child(4){
+       align-items: flex-start; 
+   }
+   
+   .formulario p input,
+   .formulario p textarea{
+       /* resize: none;
+       height: 200px; */
+       width: 35%;
+       font-size: 18px;
+       border-radius: 10px;
+   
+   
+   
+   }
+   
+   .formulario input[type="submit"]{
+    background: rgb(2, 88, 46); 
+   box-shadow: rgb(8, 28, 1);
+   color: aliceblue;
+   font-size: 18px;
+   padding: 8px 18px;
+   width: 18%;
+   left: 5px;
+   cursor: pointer;
+   position: relative;
+   left: 145px;
+   
+   
+   }
+   
